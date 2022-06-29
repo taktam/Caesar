@@ -9,7 +9,6 @@
 #include <QString>
 #include <QRegularExpressionValidator>
 #include <iterator>
-#include <abc.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -31,10 +30,10 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    QMap <QString, int> abc;
-    QString filteredText;
-    QString textFilter(QString);
-    QString result;
-    int offset;
+    QMap <QString, int> abc;       //letters, codes
+    QString filteredText;          //uppercase text
+    QString textFilter(QString);   //funktion for capitalization
+    QString result;                //output text
+    int offset;                    //shifting
 };
 #endif // MAINWINDOW_H

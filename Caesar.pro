@@ -14,7 +14,6 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    abc.h \
     mainwindow.h
 
 FORMS += \

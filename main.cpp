@@ -1,3 +1,7 @@
+/*#################################
+ #Task#4 solving
+ by Tamas Takacs 2022
+ #################################*/
 #include "mainwindow.h"
 
 #include <QApplication>
