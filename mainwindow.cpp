@@ -32,6 +32,7 @@ MainWindow::MainWindow(QWidget *parent)
     abc ["Y"] = 24;
     abc ["Z"] = 25;
 
+    //GUI Settings
     ui->setupUi(this);
     setStyleSheet("background-color:#E6BA95");
     ui->lineEdit_input->setStyleSheet("background-color:#E4E9BE");
